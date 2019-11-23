@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/iv_recent_pages"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="16dp"
+        android:tint="@color/colorAccent"
+        android:src="@drawable/ic_access_time_black_24dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_recent_pages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="16dp"
+        android:textSize="12sp"
+        android:text="@string/recent_pages"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/iv_recent_pages"
+        android:layout_marginTop="24dp"
+        android:layout_above="@id/tv_more_notebook"
+        android:layout_marginBottom="8dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_more_notebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/colorAccent"
+        android:text="@string/more_notebooks"
+        android:layout_marginBottom="34dp"
+        android:layout_marginStart="128dp"
+        android:textSize="12sp"
+        />
+
+
+</RelativeLayout>

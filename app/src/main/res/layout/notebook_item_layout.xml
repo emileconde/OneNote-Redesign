@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    >
+
+    <ImageView
+        android:id="@+id/iv_notebook_icon"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        tools:src="@drawable/ic_book"
+        android:layout_marginStart="18dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_notebook_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="School notebook"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:layout_marginStart="70dp"
+        android:textColor="@android:color/black"
+        />
+</RelativeLayout>

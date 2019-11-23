@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">OneNote Redesign</string>
+    <string name="content_description_logo">App logo</string>
+    <string name="content_description_microsoft_logo">Microsoft Logo</string>
+    <string name="name">One Note</string>
+    <string name="app_slogan">Take notes. Get organized.</string>
+    <string name="email_hint"><font size="12">Enter your email, phone or Skype name</font></string>
+    <string name="recent_pages">Recent Pages</string>
+    <string name="password_hint"><font size="12">Enter your password</font></string>
+    <string name="login">Log in</string>
+    <string name="forgot_pass">For got password?</string>
+    <string name="github_login">Login with Github</string>
+    <string name="no_account">Don\'t have an account? <font color='#E724C7'>Sign up</font></string>
+    <string name="more_notebooks">More notebooks</string>
+
+    <string name="menu_sync_title">Sync all</string>
+    <string name="menu_settings_title">Settings</string>
+    <string name="menu_feedback_title">Send feedback</string>
+    <string name="btn_login">Login</string>
+
+
+</resources>
